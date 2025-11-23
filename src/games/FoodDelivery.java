@@ -111,7 +111,7 @@ public class FoodDelivery {
 		mSecPerMin = 3000;
 		pizzasReadyMax = 12;
 		pizzasBakingMax = 4;
-		bakingTime = 7;
+		bakingTime = 8;
 		pizzasInCarMax = 10;
 		minPer20Squares = 3;
 		orderMaxTime = 60;
@@ -683,7 +683,7 @@ public class FoodDelivery {
 		}
 		String t;
 		if (pizzasBaking == 1)t = "Pizza Out ~ ";
-		else t = "Pizzas Out ~ ";
+		else t = "Baked At ~ ";
 		t += String.valueOf(hOut) + ":";
 		if (mOut < 10) t += "0";
 		t += String.valueOf(mOut);
